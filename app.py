@@ -5,7 +5,7 @@ from langchain_community.document_loaders import UnstructuredPDFLoader
 from langchain_community.document_loaders import OnlinePDFLoader  
 
 
-genai.configure(api_key="AIzaSyA67Qp5CQpencHHxTbfLJRGL55Nq2jgn0Y")
+genai.configure(api_key="")
 
 def get_respons(input):
     model=genai.GenerativeModel("gemini-pro")
